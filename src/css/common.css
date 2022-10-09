@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.value {
+  font-weight: 600;
+  font-size: 52px;
+  color: #000000;
+}
+.label {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #212121;
+}
+button {
+  background-color: #4561e0;
+  border-radius: 5px;
+  border-style: none;
+  color: #000000;
+  height: 25px;
+  width: 60px;
+}
