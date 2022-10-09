@@ -72,9 +72,7 @@ function addLeadingZero(value) {
   }
   return result;
 }
-// function addLeadingZero(value) {
-//   return String(value).padStart(2, '0');
-// }
+
 function numberHandler(timeObj) {
   let i = 0;
   for (const key in timeObj) {
