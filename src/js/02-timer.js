@@ -64,9 +64,17 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
+
 function addLeadingZero(value) {
-  return String(value).padStart(2, '0');
+  const result = {};
+  for (const key in value) {
+    result[key] = String(value[key]).padStart(2, '0');
+  }
+  return result;
 }
+// function addLeadingZero(value) {
+//   return String(value).padStart(2, '0');
+// }
 function numberHandler(timeObj) {
   let i = 0;
   for (const key in timeObj) {
