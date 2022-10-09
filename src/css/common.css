@@ -37,11 +37,11 @@ img {
   color: #212121;
 }
 button {
-  background-color: #4561e0;
+  background-color: #4a88ec;
   border-radius: 5px;
   border-style: none;
   color: #000000;
   height: 25px;
-  width: 60px;
+  min-width: 90px;
   cursor: pointer;
 }
