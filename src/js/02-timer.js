@@ -23,7 +23,7 @@ const options = {
     if (endTime > startTime) {
       startBtnEl.disabled = false;
     } else {
-      Notify.warning('Please choose a date in the future');
+      Notiflix.Notify.warning('Please choose a date in the future');
       return;
     }
   },
